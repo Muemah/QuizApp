@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/question_1"
+        android:textAllCaps="true"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="sans-serif-condensed"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:fontFamily="sans-serif-condensed"
+
+        android:textAllCaps="true"
+       android:text="@string/what_is_the_name_of_your_internet_service_provider">
+       <CheckBox
+           android:id="@+id/checkbox_safaricom"
+         android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/safaricom"
+           android:fontFamily="sans-serif-condensed"
+           android:layout_margin="10dp"
+
+           android:textAllCaps="true">
+
+       </CheckBox>
+    <CheckBox android:id="@+id/checkbox_faiba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/faiba"
+        android:fontFamily="sans-serif-condensed"
+        android:textAllCaps="true"
+        android:onClick="onCheckboxClicked"
+        android:layout_margin="10sp"
+        tools:ignore="DuplicateIds">
+
+    </CheckBox>
+    <CheckBox android:id="@+id/checkbox_airtel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/airtel"
+        android:textAllCaps="true"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_margin="10sp"
+        android:onClick="onCheckboxClicked">
+
+    </CheckBox>
+    <CheckBox android:id="@+id/checkbox_telkom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/telkom"
+        android:fontFamily="sans-serif-condensed"
+        android:textAllCaps="true"
+        android:layout_margin="10sp"
+        android:onClick="onCheckboxClicked">
+
+    </CheckBox>
+    <CheckBox android:id="@+id/checkbox_others"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/others"
+        android:fontFamily="sans-serif-condensed"
+        android:textAllCaps="true"
+        android:layout_margin="10sp"
+        android:onClick="onCheckboxClicked">
+
+    </CheckBox>
+
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="12sp"
+        android:layout_marginTop="12sp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/question_2"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+       android:textAllCaps="true"
+
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/what_do_you_like_about_the_internet_service_provider_s"/>
+    <EditText
+        android:hint="@string/what_do_you_like_about_the_internet_service_provider_s"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/plain_text_input"
+        android:inputType="text"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/question_3"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif-condensed"
+        android:textAllCaps="true"/>
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+       android:scrollbars="vertical"
+        android:layout_margin="16dp"
+        android:text="@string/what_is_your_mobile_daily_budget"
+        android:textAllCaps="true"
+        <RadioButton android:id="@id/radio_50-"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/ksh_50_and_below"
+            android:onClick="OnRadioButtonClicked"/>
+            <RadioButton android:id="@+id/radio_50+"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ksh_50_and_above"
+                android:onClick="OnRadioButtonClicked"
+                android:layout_marginRightOf=" @id/radio_50 "
+
+        />
+
+
+</LinearLayout>

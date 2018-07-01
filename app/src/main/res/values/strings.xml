@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="what_is_the_name_of_your_internet_service_provider">what is the name of your internet service provider?</string>
+    <string name="question_1">question 1</string>
+    <string name="safaricom">safaricom</string>
+    <string name="telkom">telkom</string>
+    <string name="others">others</string>
+    <string name="airtel">airtel</string>
+    <string name="question_2">question 2</string>
+    <string name="faiba">faiba</string>
+    <string name="what_do_you_like_about_the_internet_service_provider_s">What do you like about the internet service provider(s)?</string>
+    <string name="question_3">question 3</string>
+    <string name="what_is_your_mobile_daily_budget">what is your mobile daily budget?</string>
+    <string name="ksh_50_and_above">ksh 50 and above</string>
+    <string name="ksh_50_and_below">Ksh 50 and below</string>
+    <string name="question_4">question 4</string>
+    <string name="changes_that_should_be_included_to_help_improve_the_quality_of_the_isps">Changes that should be included to help improve the quality of the ISPs?</string>
+    <string name="ksh_50_and_below">Ksh 50 and below</string>
+    <string name="question_2">question 2</string>
+    <string name="others">others</string>
+    <string name="telkom">telkom</string>
+    <string name="faiba">faiba</string>
+    <string name="airtel">airtel</string>
+    <string name="what_do_you_like_about_the_internet_service_provider_s">What do you like about the internet service provider(s)?</string>
+    <string name="question_3">question 3</string>
+    <string name="what_is_your_mobile_daily_budget">what is your mobile daily budget?</string>
+    <string name="ksh_50_and_above">ksh 50 and above</string>
+    <string name="what_do_you_like_about_the_internet_service_provider_s">What do you like about the internet service provider(s)?</string>
+    <string name="question_3">question 3</string>
+    <string name="what_is_your_mobile_daily_budget">what is your mobile daily budget?</string>
+    <string name="question_2">question 2</string>
+    <string name="others">others</string>
+    <string name="ksh_50_and_below">Ksh 50 and below</string>
+    <string name="ksh_50_and_above">ksh 50 and above</string>
+    <string name="faiba">faiba</string>
+    <string name="telkom">telkom</string>
+</resources>
